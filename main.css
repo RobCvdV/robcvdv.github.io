@@ -1,0 +1,32 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #212121;
+    color: #f1f1f1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #fa8e08;
+}
+.main a {
+    font-size: 20pt;
+    line-height: 2em;
+}
+.links {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links a span {
+    margin: 10px;
+    flex: 0;
+    width: 40%;
+
+}
