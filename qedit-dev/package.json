@@ -1,0 +1,14 @@
+{
+  "name": "qedit",
+  "description": "A questionnaire / workflow management editor",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
